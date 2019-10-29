@@ -1,5 +1,5 @@
 substitutions:
-    _CLOUDSDK_COMPUTE_ZONE: europe-west1-b # default value
+    _CLOUDSDK_COMPUTE_ZONE: europe-west1-d # default value
     _CLOUDSDK_CONTAINER_CLUSTER: test      # default value
 steps:
 - id: 'build nginx image'
