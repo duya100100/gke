@@ -2,7 +2,7 @@ imports:
 - path: gke-cluster.jinja
 
 resources:
-- name: test-cluster
+- name: test
   type: gke-cluster.jinja
   properties:
     zone: europe-west1-d
